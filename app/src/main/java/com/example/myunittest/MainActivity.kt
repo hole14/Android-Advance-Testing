@@ -62,16 +62,16 @@ class MainActivity : AppCompatActivity(), View.OnClickListener {
     }
 
     private fun gone() {
-        activityMainBinding.btnCalculateVolume.visibility = View.VISIBLE
-        activityMainBinding.btnCalculateCircumference.visibility = View.VISIBLE
-        activityMainBinding.btnCalculateSurfaceArea.visibility = View.VISIBLE
-        activityMainBinding.btnSave.visibility = View.GONE
-    }
-
-    private fun visible() {
         activityMainBinding.btnCalculateVolume.visibility = View.GONE
         activityMainBinding.btnCalculateCircumference.visibility = View.GONE
         activityMainBinding.btnCalculateSurfaceArea.visibility = View.GONE
         activityMainBinding.btnSave.visibility = View.VISIBLE
+    }
+
+    private fun visible() {
+        activityMainBinding.btnCalculateVolume.visibility = View.VISIBLE
+        activityMainBinding.btnCalculateCircumference.visibility = View.VISIBLE
+        activityMainBinding.btnCalculateSurfaceArea.visibility = View.VISIBLE
+        activityMainBinding.btnSave.visibility = View.GONE
     }
 }
