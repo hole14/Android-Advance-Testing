@@ -52,6 +52,13 @@ dependencies {
     testImplementation(libs.mockito.kotlin.v510)
     testImplementation(libs.junit.junit)
     testImplementation(libs.junit.junit)
+
+    //espresso
+    androidTestImplementation(libs.androidx.runner)
+    androidTestImplementation(libs.androidx.rules)
+
+    testImplementation(libs.junit.junit)
+    testImplementation(libs.junit.junit)
     testImplementation(libs.junit.junit)
     testImplementation(libs.junit.junit)
     testImplementation(libs.junit.junit)
